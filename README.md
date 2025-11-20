@@ -1,110 +1,33 @@
-# BlinkIt_Sales_Performance_Dashboard-Power-BI-DAX-ETL-
-A comprehensive Power BI dashboard designed to analyze BlinkIt’s retail performance across sales, item categories, outlet types, customer ratings, and yearly trends. This project demonstrates end-to-end BI development, including data cleaning, ETL, modeling, DAX calculations, and insight generation.
+# Blinkit Data Analysis Dashboard
 
-🚀 Project Overview
+## Project Overview
 
-The BlinkIt Sales Performance Dashboard provides a complete analytical view of:
+This project presents a comprehensive Power BI dashboard for analyzing Blinkit's sales performance, customer satisfaction, and inventory distribution. The dashboard provides key insights and opportunities for optimization using various KPIs and visualizations.
 
-$1.2M Total Sales
+## Key Performance Indicators (KPIs)
 
-3.9 Average Rating
+The dashboard focuses on the following primary KPIs:
 
-8,523 Product Items
+1. **Total Sales**: Overall revenue generated from all items sold ($1.20M)
+2. **Average Sales**: Average revenue per sale ($141)
+3. **Number of Items**: Total count of different items sold (8523)
+4. **Average Rating**: Average customer rating for items sold (3.9 out of 5)
 
-Outlet Type & Tier Performance
+## Features
 
-Category-wise and Fat-Content Sales Distribution
+- **Filter Panel**: Allows users to filter data by outlet location type, outlet size, and item type
+- **Outlet Establishment Trend**: Visualizes the growth of outlet establishments from 2012 to 2022
+- **Fat Content Analysis**: Breaks down sales by low fat and regular fat products
+- **Item Type Distribution**: Shows sales distribution across various product categories
+- **Outlet Size and Location Analysis**: Provides insights on sales performance by outlet size and location tier
+- **Outlet Type Comparison**: Compares different outlet types based on sales, number of items, average sales, ratings, and item visibility
 
-Year-wise Outlet Establishment Trends (2011–2020)
+## Insights and Conclusions
 
-This dashboard helps stakeholders identify key business drivers, high-performing categories, and outlet-level performance patterns.
+1. Strong overall sales performance with over $1M in total sales
+2. Consumer preference for low-fat products, indicating health-conscious buying habits
+3. Fruits, vegetables, and snack foods are the top-selling categories
+4. Medium-sized outlets in Tier 3 locations show the highest profitability
+5. Supermarkets generate higher sales volumes, while grocery stores have better item visibility
 
-🛠 Tech Stack
-
-Power BI (Dashboarding & Visualization)
-
-Power Query (M Language) — Data Cleaning & ETL
-
-DAX — KPI Calculations
-
-Excel / CSV — Raw Data Source
-
-Data Modeling — Star-Schema Design
-
-📊 Key Features
-1️⃣ Sales KPIs & Insights
-
-Total Sales, Average Sales, Rating Score
-
-Item Count & Visibility Metrics
-
-2️⃣ Category-Level Analysis
-
-Item Type performance (Fruits, Snacks, Dairy, Household, Frozen, etc.)
-
-Fat content distribution (Low Fat / Regular)
-
-3️⃣ Outlet-Level Insights
-
-Sales by Outlet Size (Small, Medium, Large)
-
-Sales by Tier (Tier 1, Tier 2, Tier 3)
-
-Outlet Type-wise revenue contribution (Supermarket Type 1, Grocery Store, etc.)
-
-4️⃣ Time-Series Trends
-
-Outlet establishment analysis (2011–2020)
-
-Sales patterns across store age
-
-5️⃣ Interactive Filters
-
-Item Type
-
-Outlet Type
-
-Outlet Tier
-
-Fat Content
-
-Outlet Size
-
-📁 Project Structure
-📦 BlinkIt-Sales-Performance
- ┣ 📂 Dataset
- ┣ 📂 PowerBI_File
- ┣ 📜 README.md
- ┣ 📜 Dashboard_Screenshots
-
-📥 How to Use
-
-Download the .pbix file
-
-Open in Power BI Desktop
-
-Refresh data if needed
-
-Use slicers to explore insights interactively
-
-📈 Business Insights Derived
-
-Medium-sized outlets contribute the highest sales share.
-
-Supermarket Type-1 stores generate the majority of revenue.
-
-Item visibility strongly correlates with sales performance.
-
-Processed and snack categories show higher customer preference.
-
-Newer outlets (post-2015) show stronger revenue growth patterns.
-
-📌 Why This Project Matters
-
-This project demonstrates real-world skills needed for BI roles:
-
-✔ Power BI dashboard development
-✔ ETL using Power Query
-✔ Data modeling & schema design
-✔ DAX formulas & KPI creation
-✔ Business insight storytelling
+**NOTE:** This analysis was conducted as part of a project and is for educational purposes only.
